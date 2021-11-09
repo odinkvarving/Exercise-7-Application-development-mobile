@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        app:defaultValue="@string/background_color_default_value"
+        app:entries="@array/background_color_entries"
+        app:entryValues="@array/background_color_values"
+        app:icon="@drawable/settings_icon"
+        app:key="@string/background_mode"
+        app:title="@string/background_color_title"
+        app:useSimpleSummaryProvider="true" />
+
+</PreferenceScreen>
